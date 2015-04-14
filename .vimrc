@@ -12,10 +12,17 @@ set mouse=a
 nnoremap j gj
 nnoremap k gk
 call pathogen#infect()
-set background=dark "dark|light"
+set background=light 
 set nocompatible
 set t_Co=256
 let g:solarized_termcolors=256
 colorscheme solarized
 filetype plugin on
-call togglebg#map("<F5>")
+
+"Map home and end"
+map <esc>OH <home>
+map <esc>OF <end>
+imap <esc>OH <home>
+imap <esc>OF <end>
+cmap <esc>OH <home>
+cmap <esc>OF <end>
