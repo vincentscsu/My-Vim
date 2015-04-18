@@ -19,6 +19,10 @@ let g:solarized_termcolors=256
 colorscheme solarized
 filetype plugin on
 
+"Add dots as indent
+set encoding=utf-8
+set list listchars=trail:·
+
 "Map home and end"
 map <esc>OH <home>
 map <esc>OF <end>
